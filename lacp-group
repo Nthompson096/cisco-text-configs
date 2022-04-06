@@ -2,6 +2,9 @@
 en
 conf t
 !int port-channel 2
+!choose a hostname if you want
+!
+!hostname <device>
 !
 !switchport mode acc
 !
