@@ -6,5 +6,7 @@ conf t
 !hostname
 !
 !
-service dhcp
+!service dhcp
 !
+end
+exi
