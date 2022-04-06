@@ -1,0 +1,12 @@
+!Switch itervlan config
+En
+Conf t
+!hostname device-name
+int int0/0.000
+encap dotq1
+!ip add
+no shut
+int int0/0
+no sh
+exi
+end
