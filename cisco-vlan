@@ -1,4 +1,4 @@
-!cisco-vlan
+!cisco-vlan, segmenting networks.
 en
 conf t
 !service password-encry
