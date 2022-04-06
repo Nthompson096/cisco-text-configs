@@ -24,7 +24,7 @@ conf t
 !
 !ip add x.x.x.x x.x.x.x
 !
-!int g0/0-1
+!int int0/0-1
 !
 !channel-protocol lacp
 !
