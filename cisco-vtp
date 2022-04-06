@@ -1,0 +1,33 @@
+!cisco VTP config
+en
+conf t
+!choose a hostname if you want
+!
+!hostname
+!
+!enable the vtp feature
+feature vtp
+!choose a domain name
+!vtp domain-nam cisco
+vtp mode off
+!Same as off, doesn't actually advertise anything is the difference
+!
+!vtp mode transparent
+!
+!Will get the info from VTP as it says on the tin
+!
+!vtp mode client
+!
+!The server
+!vtp mode server
+!This is good for servers and stuff
+!vtp password cisco
+!
+end
+!
+!show vtp password
+!sh vtp counters
+!sh vtp int
+!
+!
+copy ru start
