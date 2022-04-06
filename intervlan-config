@@ -1,8 +1,9 @@
 !Switch itervlan config; also sub-interfaces
 En
 Conf t
+!choose a hostname if you want
 !
-!hostname device-name
+!hostname <device>
 !
 !int int0/0.000
 !
