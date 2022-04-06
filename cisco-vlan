@@ -7,16 +7,33 @@ conf t
 !hostname 
 !
 !int vlan 10
+!
 !ip add x.x.x.x x.x.x.x
+!
 !no sh
+!
 !int g0/00
+!
 !sw tru en doq1
+!
 !sw tru en isl
+!
 !sw mo tru
+!
 !sw tru allo vlan 10
+!
 !vlan 10
+!
 !name name-of-vlan
+!
 !no sh
+!
 !this command may not be needed, but to be sure
+!
+exi
+!
 !end
-!exi
+!
+copy run start
+!
+!
