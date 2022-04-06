@@ -1,0 +1,10 @@
+cisco dhcp
+en
+conf t
+!choose a hostname if you want
+!
+!hostname
+!
+!
+service dhcp
+!
