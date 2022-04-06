@@ -6,8 +6,37 @@ conf t
 !change the interface to whatever on the switch or layer 3 switch (router)
 !
 !int g0/0
+!disable spanning tree; bad idea if this on layer 2 switches, watch Carl's Push Fight and you'll see what I mean.
 !no spanning tree
 !
-!spanning tree
+!turn on spanningtree globally
+!spanning tree portfast
 !
-!spanning tree bpu guard
+!Spanning-tree BPDUguard is one of the features that helps you protect your spanning-tree topology; To prevent loops from occurring in a network.
+!set spantree portfast bpdu-guard enable
+!
+!set spantree portfast bpdu-guard disable
+!
+!If the port configuration is set to default, the global configuration is checked.
+!bpdu-filters, good idea to configure this globally in config mode
+!set spantree portfast bpdu-filter mod/port en
+!
+!set spantree portfast bpdu-filter mod/port disable
+!
+!set spantree portfast bpdu-filter mod/port default
+!
+!portfast basically tells spanning tree to turn on port forwarding on the port.
+!set spantree portfast int/int-int enable
+!
+!disabling portfast
+!set spantree portfast int/int-int disable
+!
+!set portfast to default
+!set spantree portfast int/int-int default
+!
+!show spanning-tree summary and to verify your settings
+!show spantree summary 
+!
+!
+end
+exi
