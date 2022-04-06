@@ -30,9 +30,9 @@ conf t
 !
 !this command may not be needed, but to be sure
 !
-exi
+!exi
 !
-!end
+end
 !
 copy run start
 !
