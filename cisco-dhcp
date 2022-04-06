@@ -1,12 +1,29 @@
-cisco dhcp
+cisco dhcp, great for routers, not so for switch. 
 en
 conf t
 !choose a hostname if you want
 !
-!hostname
+!hostname 
 !
 !
 !service dhcp
+!
+!int int0/0
+!dhcp helper, basically point to the dhcp server to get a dhcp ip address.
+!ip helper-address x.x.x.x
+!
+!dhcp pools
+!
+!ip dhcp pool cisco
+!
+!network x.x.x.x x.x.x.x
+!
+!default-router x.x.x.x
+!
+!domain-name x.x.x.x
+!
+!dns-server x.x.x.x
+!
 !
 end
 exi
