@@ -57,7 +57,5 @@ conf t
 !
 end
 !
-copy run sta
-!
 copy run start
 !
