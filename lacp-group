@@ -53,8 +53,11 @@ conf t
 !ip add x.x.x.x x.x.x.x
 !
 !
+!exi
+!
 end
 !
-exi
+copy run sta
 !
+copy run start
 !
