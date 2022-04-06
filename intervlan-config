@@ -1,12 +1,27 @@
-!Switch itervlan config
+!Switch itervlan config; also sub-interfaces
 En
 Conf t
+!
 !hostname device-name
-int int0/0.000
-encap dotq1
+!
+!int int0/0.000
+!
+!encap dot1q vlan 10 20
+!
 !ip add
-no shut
-int int0/0
-no sh
-exi
-end
+!
+!no shut
+!
+!int int0/0
+!
+!sw tru encap dot1q
+!
+!sw mo tru
+!
+!sw tru all vlan 10 20
+!
+!no sh
+!
+!exi
+!
+!end
