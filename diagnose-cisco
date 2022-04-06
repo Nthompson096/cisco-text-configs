@@ -6,7 +6,7 @@ en
 !
 !show int int0/0
 !
-!this command may work only if there is a switching module installed on the system; use google; good way to see if stuff is in duplex
+!this command may work only if there is a switching module installed on the system; use google, good way to see if stuff is in duplex
 !show interface status
 !
 !good way to figure out if duplex is incorrect
