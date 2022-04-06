@@ -1,8 +1,6 @@
 !cisco-vlan, segmenting networks.
 en
 conf t
-!service password-encry
-!good for encrypting passwords instead of plaintext
 !
 !hostname 
 !
