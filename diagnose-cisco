@@ -14,4 +14,12 @@ en
 !
 !sh run | inc ip route
 !sh ru | begin int0/0
+!
+!show the vlan database
+!show vlan database
+!
+!show the vlans
+!show int vlan
+!show vlan
+!
 exi
