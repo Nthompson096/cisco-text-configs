@@ -3,4 +3,11 @@ en
 conf t
 !hostname
 !
+!change the interface to whatever on the switch or layer 3 switch (router)
 !
+!int g0/0
+!no spanning tree
+!
+!spanning tree
+!
+!spanning tree bpu guard
