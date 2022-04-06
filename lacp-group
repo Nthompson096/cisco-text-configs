@@ -1,0 +1,49 @@
+!cisco lacp groups, good for link aggs
+en
+conf t
+!int port-channel 2
+!
+!switchport mode acc
+!
+!switchport trunk encap dot1q
+!
+!switchport mode tru
+!
+!switchport tru allo vlan 10
+!
+!sometimes some switches out there would like to have an add when adding a vlan for trunks; so do that if I have an error.
+!
+!no switchport
+!
+!dunno why you'd need no swtch-port on a switch.
+!
+!ip add x.x.x.x x.x.x.x
+!
+!int g0/0-1
+!
+!channel-protocol lacp
+!
+!channel-group 2
+!
+!switchport mode acc
+!
+!switchport trunk encap dot1q
+!
+!switchport mode tru
+!
+!switchport tru allo vlan 10
+!
+!sometimes some switches out there would like to have an add when adding a vlan for trunks; so do that if I have an error.
+!
+!no switchport
+!
+!dunno why you'd need no swtch-port on a switch.
+!
+!ip add x.x.x.x x.x.x.x
+!
+!
+end
+!
+exi
+!
+!
