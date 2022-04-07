@@ -23,3 +23,7 @@ en
 !show vlan
 !
 exi
+!
+copy run start
+!
+!
