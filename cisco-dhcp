@@ -8,6 +8,10 @@ conf t
 !
 !service dhcp
 !
+!disable the dhcp service just negate it with the no command
+!
+!no service dhcp
+!
 !int int0/0
 !dhcp helper, basically point to the dhcp server to get a dhcp ip address.
 !ip helper-address x.x.x.x
