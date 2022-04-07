@@ -12,9 +12,9 @@ conf t
 !
 !int g0/00
 !
-!sw tru en doq1
+!sw tru encap dotq1
 !
-!sw tru en isl
+!sw tru encap isl
 !
 !sw mo tru
 !
