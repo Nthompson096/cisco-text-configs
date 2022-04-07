@@ -23,9 +23,9 @@ Conf t
 !
 !no sh
 !
-!exi
+exi
 !
-end
+!end
 !
 copy run start
 !
