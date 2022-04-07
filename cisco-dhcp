@@ -12,6 +12,8 @@ conf t
 !dhcp helper, basically point to the dhcp server to get a dhcp ip address.
 !ip helper-address x.x.x.x
 !
+!exi
+!
 !dhcp pools
 !
 !
