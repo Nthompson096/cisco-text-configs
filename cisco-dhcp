@@ -33,7 +33,30 @@ conf t
 !
 !dns-server x.x.x.x
 !
+!enable dhcp snooping globally
+!ip dhcp snooping
 !
+!int int0/0
+!ip dhcp snooping trust
+!
+!to not trust this interface, you can just negate it with no
+!no ip dhcp snooping trust
+!
+!verify dhcp snooping info
+!do show ip dhcp snooping | begin pps
+!
+!to trust a list of int just put in int ra, be sure it falls in line with int range
+!show ip int bri
+!
+!int ra int0/0-10
+!
+!trust some vlans with dhcp snooping
+!
+!ip dhcp snooping vlan <vlan num> <vlan num>
+!
+!no ip dhcp snooping
+!
+!do show ip dhcp snooping
 exi
 !
 copy run start
