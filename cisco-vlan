@@ -12,6 +12,8 @@ conf t
 !
 !int g0/00
 !
+!encapsulation modes, dotq1 and isl
+!
 !sw tru encap dotq1
 !
 !sw tru encap isl
