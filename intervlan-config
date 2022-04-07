@@ -15,6 +15,8 @@ Conf t
 !
 !int int0/0
 !
+!Would need a switching module for these commands.
+!
 !sw tru encap dot1q
 !
 !sw mo tru
