@@ -1,4 +1,4 @@
-cisco dhcp, great for routers, not so for switch. 
+!cisco dhcp, great for routers, not so for switch. Snooping is good for switch.
 en
 conf t
 !choose a hostname if you want
