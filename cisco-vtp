@@ -5,11 +5,13 @@ conf t
 !
 !hostname
 !
-!enable the vtp feature
+!enable the vtp feature, turn off vtp
+vtp mode off
+!
 feature vtp
 !choose a domain name
 !vtp domain-nam cisco
-vtp mode off
+!
 !
 !vtp mode transparent
 !Same as off, doesn't actually advertise anything is the difference
