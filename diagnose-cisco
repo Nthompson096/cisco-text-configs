@@ -19,7 +19,7 @@ en
 !show vlan database
 !
 !show the vlans
-!show int vlan
+!show int vlan xx
 !show vlan
 !
 exi
