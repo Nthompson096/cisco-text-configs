@@ -7,7 +7,7 @@ hostname SW100
 !
 int g0/0.100
 !
-encap dot1q 10 sec 20
+encap dot1q 10
 !
 no shut
 !
@@ -23,7 +23,7 @@ sw tru encap dot1q
 sw mo tru
 !
 !sometimes you'll need to add sw tru all vlan add 10,20
-sw tru all vlan add 10,20
+sw tru all vlan add 10
 !
 no sh
 !
