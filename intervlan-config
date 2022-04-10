@@ -3,27 +3,29 @@ En
 Conf t
 !choose a hostname if you want
 !
-!hostname <device>
+hostname SW100
 !
-!int int0/0.000
+int g0/0.100
 !
-!encap dot1q vlan 10 20
+encap dot1q 10 sec 20
 !
-!ip add
+no shut
 !
-!no shut
+!Can get away with just this and a switch.
 !
-!int int0/0
+!
+int g0/0
 !
 !Would need a switching module for these commands.
 !
-!sw tru encap dot1q
+sw tru encap dot1q
 !
-!sw mo tru
+sw mo tru
 !
-!sw tru all vlan 10 20
+!sometimes you'll need to add sw tru all vlan add 10,20
+sw tru all vlan add 10,20
 !
-!no sh
+no sh
 !
 exi
 !
