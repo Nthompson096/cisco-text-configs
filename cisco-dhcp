@@ -56,7 +56,7 @@ conf t
 !
 !no ip dhcp snooping
 !
-!do show ip dhcp snooping
+!show ip dhcp snooping
 exi
 !
 copy run start
