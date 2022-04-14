@@ -21,6 +21,8 @@ en
 !show the vlans
 !show int vlan xxxx
 !show vlan
+!show vlans
+!
 !
 exi
 !
