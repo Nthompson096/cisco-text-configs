@@ -24,8 +24,9 @@ en
 !show vlans
 !
 !
-exi
 !
 copy run start
 !
 !
+!
+exit
