@@ -23,7 +23,8 @@ en
 !show vlan
 !show vlans
 !
-!show ospf
+!show ospf stuff.
+!
 !show ospf
 !
 !show ospf ?
