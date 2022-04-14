@@ -29,8 +29,13 @@ no sh
 !
 !Let's not forget about adding vlans on the designated device
 !
-!vlan xx
-!vlan xx
+!vlanxx
+!vlanxx
+!
+!may needs to add the interface
+!
+!int vlan xx
+!int vlan xx
 !
 !exi
 !
