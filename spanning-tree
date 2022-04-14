@@ -3,7 +3,7 @@ en
 conf t
 !hostname
 !
-!change the interface to whatever on the switch or layer 3 switch (router)
+!change the interface to whatever on the switch or layer 2 switch (router)
 !
 !int g0/0
 !disable spanning tree; bad idea if this on layer 2 switches, watch Carl's Push Fight and you'll see what I mean.
