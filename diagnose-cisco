@@ -31,4 +31,6 @@ en
 !show ospf ?
 !use this to see a list of commmands.
 !
+!ususally you'd use ? for a list of other commands as well.
+!
 exit
