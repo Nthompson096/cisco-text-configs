@@ -4,6 +4,10 @@
 !
 !en
 !
+!set the hostname to whatever you'd want
+!
+!hostname SW100
+!
 !conf t
 !example for an ospf process
 !router ospf 1
@@ -66,4 +70,13 @@
 !ip ospf flood-reduction
 !Suppresses the unnecessary flooding of LSAs in stable topologies.
 !
-!end
+!loopback interface ID:
+!
+!int lo
+!ip add x.x.x.1
+!no sh
+!
+end
+!
+copy run start
+!
