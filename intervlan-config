@@ -31,9 +31,10 @@ no sh
 !
 !vlan xx
 !vlan xx
-exi
 !
-!end
+!exi
+!
+end
 !
 copy run start
 !
