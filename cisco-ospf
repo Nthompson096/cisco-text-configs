@@ -1,0 +1,51 @@
+!Cisco-ospf an open source alternative for eigrp
+!
+!
+en
+conf t
+router ospf 1
+network x.x.x.x x.x.x.x area 0
+end
+!
+!network:
+!Network will have to have the wildcard mask and will have to be assigned to a area.
+!
+!OSPF Interface Parameters
+!
+!en
+!conf t
+!int 0/0
+!ip ospf cost 50000
+!
+!cost of sending a packet
+!
+!ip ospf retransmit-interval 1
+!
+!Specifies the number of seconds between link-state advertisement (LSA) retransmissions for adjacencies belonging to an OSPF interface.
+!
+!ip ospf transmit-delay 
+!
+!Sets the estimated number of seconds required to send a link-state update packet on an OSPF interface.
+!
+!ip ospf priority 1 
+!Sets priority to help determine the OSPF designated router for a network.
+!
+!ip ospf hello-interval 1
+!
+!Specifies the length of time between the hello packets that the Cisco IOS software sends on an OSPF interface.
+!ip ospf dead-interval 1 
+!
+!Sets the number of seconds that a device must wait before it declares a neighbor OSPF router down because it has not received a hello packet.
+!
+!ip ospf authentication-key 1 
+!
+!Assigns a password to be used by neighboring OSPF routers on a network segment that is using the OSPF simple password authentication.
+!
+!ip ospf message-digest-key key-id md5 key
+!
+!Enables OSPF MD5 authentication. The values for the key-id and key arguments must match values specified for other neighbors on a network segment.
+!
+!ip ospf authentication [message-digest | null]
+!
+!Specifies the authentication type for an interface.
+!end
