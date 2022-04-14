@@ -3,7 +3,7 @@ En
 Conf t
 !choose a hostname if you want
 !
-hostname SW100
+!hostname SW100
 !
 int g0/0.100
 !
