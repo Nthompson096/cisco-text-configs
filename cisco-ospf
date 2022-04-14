@@ -1,20 +1,18 @@
 !Cisco-ospf an open source alternative for eigrp
 !
 !
-!en
-!conf t
-!router ospf 1
-!network x.x.x.x x.x.x.x area 0
-!end
-!
-!network:
-!Network will have to have the wildcard mask and will have to be assigned to a area.
 !
 !OSPF Interface Parameters
 !
 !en
 !
 !conf t
+!example for an ospf process
+!router ospf 1
+!network x.x.x.x x.x.x.x area 0
+!
+!network:
+!Network will have to have the wildcard mask and will have to be assigned to a area.
 !
 !int 0/0
 !
@@ -50,4 +48,24 @@
 !
 ! distance ospf {intra-area | inter-area | external} dist
 !the distance for OSPF
+!
+!route calculation
+!
+!timers throttle spf 5 1000 9000
+!timers throttle spf spf-start spf-hold spf-max-wait
+!
+!timers for LSA's
+!timers pacing lsa-group seconds
+!timers pacing lsa-group 60
+!
+!flooding:
+!ip ospf database-filter all out
+!Blocks the flooding of OSPF LSA packets to the interface.
+!
+!neighbor  ip-address  database-filter all out
+!Blocks the flooding of OSPF LSA packets to the specified neighbor.
+!
+!ip ospf flood-reduction
+!Suppresses the unnecessary flooding of LSAs in stable topologies.
+!
 !end
