@@ -45,4 +45,7 @@
 !ip ospf authentication [message-digest | null]
 !Specifies the authentication type for an interface.
 !
+!default-information originate [always] [metric metric-value] [metric-type type-value] [route-map map-name]
+!works basically like rips when injecting static routes.
+!
 !end
