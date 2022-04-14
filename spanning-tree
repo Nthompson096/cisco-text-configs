@@ -39,9 +39,9 @@ conf t
 !show spantree summary 
 !
 !
-!end
+end
 !
-exi
+!exi
 !
 copy run start
 !
