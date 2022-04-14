@@ -7,6 +7,7 @@ conf t
 !
 !int g0/0
 !disable spanning tree; bad idea if this on layer 2 switches, watch Carl's Push Fight and you'll see what I mean.
+!Layer 3 doesn't care about spanning tree; no reason to enable it.
 !no spanning tree
 !
 !turn on spanningtree globally
