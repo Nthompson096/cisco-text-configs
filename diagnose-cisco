@@ -23,6 +23,10 @@ en
 !show vlan
 !show vlans
 !
+!show ospf
+!show ospf
 !
+!show ospf ?
+!use this to see a list of commmands.
 !
 exit
