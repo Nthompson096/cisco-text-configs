@@ -21,7 +21,7 @@
 !ip ospf cost 50000
 !cost of sending a packet
 !
-!reference bandwith, use this for OSPF as it will select the highest bandwith.
+!reference bandwith, use this for OSPF as it will select the highest bandwith; set this within the network.
 !auto-cost reference-bandwidth 100000
 !
 !ip ospf retransmit-interval 1
