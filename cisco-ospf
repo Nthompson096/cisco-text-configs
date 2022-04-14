@@ -48,4 +48,6 @@
 !default-information originate | [always] | [metric metric-value] | [metric-type type-value] | [route-map map-name]
 !works basically like rips when injecting static routes.
 !
+! distance ospf {intra-area | inter-area | external} dist
+!the distance for OSPF
 !end
