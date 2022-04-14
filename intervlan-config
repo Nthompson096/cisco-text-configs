@@ -5,27 +5,27 @@ Conf t
 !
 !hostname SW100
 !
-int g0/0.100
+!int g0/0.100
 !
-encap dot1q 10
+!encap dot1q 10
 !
-no shut
+!no shut
 !
 !Can get away with just this and a switch.
 !
 !
-int g0/0
+!int g0/0
 !
 !Would need a switching module for these commands.
 !
-sw tru encap dot1q
+!sw tru encap dot1q
 !
-sw mo tru
+!sw mo tru
 !
 !sometimes you'll need to add sw tru all vlan add 10,20
-sw tru all vlan add 10
+!sw tru all vlan add 10
 !
-no sh
+!no sh
 !
 !Let's not forget about adding vlans on the designated device
 !
