@@ -22,6 +22,7 @@ en
 !show int vlan xxxx
 !show vlan
 !show vlans
+!show vlan ?
 !
 !show ospf stuff.
 !
