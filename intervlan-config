@@ -27,6 +27,10 @@ sw tru all vlan add 10
 !
 no sh
 !
+!Let's not forget about adding vlans on the designated device
+!
+!vlan xx
+!vlan xx
 exi
 !
 !end
