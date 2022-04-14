@@ -3,7 +3,7 @@ en
 conf t
 !choose a hostname if you want
 !
-!hostname 
+!hostname R100
 !
 !
 !service dhcp
