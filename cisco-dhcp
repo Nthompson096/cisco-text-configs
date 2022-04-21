@@ -20,6 +20,10 @@ conf t
 !
 !dhcp pools
 !
+!Speaking of pools, if you're doing stuff on a switch; you would need to add a pool name if the switch is doing DHCP.
+!
+!int vlan xxxx
+!ip add pool cisco
 !
 !ip dhcp excluded-address x.x.x.x
 !
