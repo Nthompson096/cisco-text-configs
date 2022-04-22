@@ -13,7 +13,7 @@ vtp mode off
 !choose a domain name
 !vtp domain-nam cisco
 !OR
-!vtp domain name cisco
+!vtp domain cisco
 !
 !vtp mode transparent
 !Same as off, doesn't actually advertise anything is the difference; some cisco
