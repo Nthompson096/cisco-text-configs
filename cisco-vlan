@@ -10,7 +10,7 @@ conf t
 !
 !no sh
 !
-!int g0/00
+!int gxx/x
 !
 !encapsulation modes, dotq1 and isl
 !
