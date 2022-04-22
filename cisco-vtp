@@ -8,13 +8,16 @@ conf t
 !enable the vtp feature, turn off vtp
 vtp mode off
 !
-feature vtp
+!feature vtp
+!some stuff doesn't support feature; may though errors which may be normal.
 !choose a domain name
 !vtp domain-nam cisco
-!
+!OR
+!vtp domain name cisco
 !
 !vtp mode transparent
-!Same as off, doesn't actually advertise anything is the difference
+!Same as off, doesn't actually advertise anything is the difference; some cisco
+!stuff doesn't even have off so it's best to just set it as transparent.
 !
 !vtp mode client
 !Will get the info from VTP as it says on the tin
