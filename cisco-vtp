@@ -31,9 +31,11 @@ feature vtp
 !sh vtp counters
 !sh vtp int
 !
-exi
+!exi
 !
-!end
+end
 !
 !
 copy ru start
+
+
