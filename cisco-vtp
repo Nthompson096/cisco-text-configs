@@ -4,7 +4,7 @@ en
 conf t
 !choose a hostname if you want
 !
-hostname sw1
+!hostname sw1
 !
 !enable the vtp feature, turn off vtp; vtp mode off is on some switches, but is usually transparent.
 !vtp mode on
