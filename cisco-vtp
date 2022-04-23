@@ -10,7 +10,7 @@ conf t
 !vtp mode on
 !
 !feature vtp
-!some stuff doesn't support feature; may though errors which may be normal.
+!some stuff doesn't support feature; may throw errors which may be normal.
 !choose a domain name
 !vtp domain-nam cisco
 !OR
